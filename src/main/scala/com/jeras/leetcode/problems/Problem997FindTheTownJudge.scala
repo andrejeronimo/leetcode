@@ -1,3 +1,7 @@
+package com.jeras.leetcode.problems
+
+import scala.collection.mutable.Map
+
 /**
  * 997. Find the Town Judge
  * https://leetcode.com/problems/find-the-town-judge/
@@ -27,11 +31,6 @@
  * Input: n = 3, trust = [[1,3],[2,3],[3,1]]
  * Output: -1
  */
-
-package com.jeras.leetcode.problems
-
-import scala.collection.mutable.Map
-
 object Problem997FindTheTownJudge {
 
   def findJudge(n: Int, trust: Array[Array[Int]]): Int = {
